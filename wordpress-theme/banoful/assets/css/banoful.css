@@ -1,0 +1,38 @@
+/**
+ * Banoful — Additional custom styles
+ * These extend style.css for any utility overrides.
+ */
+
+/* WordPress admin bar compensation */
+body.admin-bar #site-header { top: 32px; }
+@media screen and (max-width: 782px) { body.admin-bar #site-header { top: 46px; } }
+
+/* Ensure body doesn't have extra top margin from WP */
+body { margin-top: 0 !important; }
+
+/* Fix default WP paragraph margins inside footer/header */
+#site-header p,
+#site-footer p { margin: 0; }
+
+/* Custom logo support */
+.site-logo .custom-logo-link img,
+.site-logo .custom-logo { height: 48px !important; width: auto !important; max-width: 160px !important; object-fit: contain !important; }
+.footer-logo .custom-logo-link img,
+.footer-logo .custom-logo { height: 128px !important; width: auto !important; max-width: 320px !important; object-fit: contain !important; }
+
+/* Smooth image loading */
+img { transition: opacity 0.3s ease; }
+img[loading="lazy"] { opacity: 0; }
+img[loading="lazy"].loaded { opacity: 1; }
+
+/* Accessibility: focus states */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #C9A961;
+  outline-offset: 2px;
+}
+
+/* Ensure no default button styles bleed in */
+button { font-family: inherit; }

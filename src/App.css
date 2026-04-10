@@ -1,0 +1,36 @@
+/* App-specific styles */
+.App {
+  min-height: 100vh;
+  background-color: #FFFDF7;
+}
+
+/* Loading state */
+.loading-spinner {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 3px solid #F5F1E8;
+  border-top-color: #C9A961;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Performance optimizations */
+.will-change-transform {
+  will-change: transform;
+}
+
+.will-change-opacity {
+  will-change: opacity;
+}
+
+/* Image optimization */
+img {
+  content-visibility: auto;
+}
