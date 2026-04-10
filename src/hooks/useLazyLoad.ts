@@ -8,7 +8,7 @@ interface UseLazyLoadOptions {
 
 export function useLazyLoad(
   options: UseLazyLoadOptions = {}
-): [RefObject<HTMLElement>, boolean] {
+): [RefObject<HTMLElement | null>, boolean] {
   const {
     rootMargin = '100px',
     threshold = 0.01,

@@ -56,7 +56,7 @@ const Header = () => {
                 alt="Banoful Chittagong Logo"
                 className="h-12 w-auto max-w-[160px] object-contain drop-shadow-lg"
                 style={{ background: 'transparent' }}
-                fetchpriority="high"
+                fetchPriority="high"
                 decoding="async"
                 loading="eager"
               />

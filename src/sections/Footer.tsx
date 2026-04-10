@@ -156,7 +156,7 @@ const Footer = () => {
                 alt="Banoful Chittagong Logo"
                 className="h-32 w-auto max-w-[320px] object-contain drop-shadow-lg"
                 style={{ background: 'transparent' }}
-                fetchpriority="high"
+                fetchPriority="high"
                 decoding="async"
                 loading="eager"
               />
