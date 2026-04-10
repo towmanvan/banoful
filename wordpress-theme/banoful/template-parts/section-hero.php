@@ -172,7 +172,7 @@
               <div style="margin-top:0.75rem;padding-top:0.75rem;border-top:1px solid rgba(255,255,255,0.15);">
                 <div style="color:rgba(255,255,255,0.6);font-size:0.625rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.5rem;">Our Sweets</div>
                 <div class="hero-sweet-tags">
-                  <span class="hero-sweet-tag main">Bengali ★ Main</span>
+                  <span class="hero-sweet-tag main">Bangladeshi</span>
                   <span class="hero-sweet-tag secondary">Asian</span>
                   <span class="hero-sweet-tag secondary">Pakistani</span>
                   <span class="hero-sweet-tag secondary">Indian</span>
